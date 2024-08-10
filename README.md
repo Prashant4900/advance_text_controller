@@ -75,6 +75,12 @@ A controller for managing double input.
 final doubleController = DoubleEditingController();
 ```
 
+## Example
+
+![](example/demo.gif)
+
+See Example page for example code.
+
 ## Contributing
 
 Feel free to open issues or submit pull requests on GitHub.
