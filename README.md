@@ -79,7 +79,7 @@ final doubleController = DoubleEditingController();
 
 <img src="example/demo.gif" width="300" height="600" />
 
-See Example page for example code.
+See [Example page](https://github.com/Prashant4900/advance_text_controller/blob/main/example/lib/main.dart) for example code.
 
 ## Contributing
 
@@ -87,4 +87,4 @@ Feel free to open issues or submit pull requests on GitHub.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License](https://github.com/Prashant4900/advance_text_controller/blob/main/LICENSE) - see the LICENSE file for details.
