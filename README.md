@@ -77,7 +77,7 @@ final doubleController = DoubleEditingController();
 
 ## Example
 
-![](example/demo.gif)
+<img src="example/demo.gif" width="300" height="600" />
 
 See Example page for example code.
 
