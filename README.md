@@ -77,7 +77,7 @@ final doubleController = DoubleEditingController();
 
 ## Example
 
-<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/62440911/359347712-3c4be466-3d66-4921-a58a-1b94fdd72826.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240820%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240820T053120Z&X-Amz-Expires=300&X-Amz-Signature=7e8cc27a55315e1c9d70c8f94511acced11a31c77219cd576064a0e3c32e21ee&X-Amz-SignedHeaders=host&actor_id=62440911&key_id=0&repo_id=840606331" width="300" height="600" />
+<img src="https://github.com/user-attachments/assets/d683a50f-cb1f-4cfd-b6b3-c08c1523b2a0" width="300" height="600" />
 
 See [Example page](https://github.com/Prashant4900/advance_text_controller/blob/main/example/lib/main.dart) for example code.
 
