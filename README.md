@@ -77,7 +77,7 @@ final doubleController = DoubleEditingController();
 
 ## Example
 
-<img src="example/demo.gif" width="300" height="600" />
+<img src="https://github.com/user-attachments/assets/3c4be466-3d66-4921-a58a-1b94fdd72826" width="300" height="600" />
 
 See [Example page](https://github.com/Prashant4900/advance_text_controller/blob/main/example/lib/main.dart) for example code.
 
