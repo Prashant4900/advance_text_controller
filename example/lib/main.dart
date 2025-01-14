@@ -61,28 +61,28 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Advance Text Editing Controller"),
+        title: const Text("Advance Text Editing Controller"),
       ),
       body: SafeArea(
-        minimum: EdgeInsets.symmetric(horizontal: 16),
+        minimum: const EdgeInsets.symmetric(horizontal: 16),
         child: Column(
           children: [
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             TextFieldWithLabel(
               controller: stringController,
               label: 'Name',
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             TextFieldWithLabel(
               controller: integerController,
               label: 'Age',
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             TextFieldWithLabel(
               controller: doubleController,
               label: 'Amount',
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             InkWell(
               onTap: () async {
                 final result = await showDatePicker(
@@ -102,7 +102,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 label: 'Date of birth',
               ),
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             InkWell(
               onTap: () async {
                 final result = await showModalBottomSheet<int?>(
@@ -134,7 +134,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 label: 'Products',
               ),
             ),
-            Spacer(),
+            const Spacer(),
             SizedBox(
               width: double.infinity,
               height: 60,
@@ -163,49 +163,50 @@ class _MyHomePageState extends State<MyHomePage> {
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
                               Text("Name: $name",
-                                  style: TextStyle(fontSize: 16)),
+                                  style: const TextStyle(fontSize: 16)),
                               Text("Data type: ${name.runtimeType}",
-                                  style: TextStyle(fontSize: 16)),
+                                  style: const TextStyle(fontSize: 16)),
                             ],
                           ),
-                          SizedBox(height: 20),
+                          const SizedBox(height: 20),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
-                              Text("Age: $age", style: TextStyle(fontSize: 16)),
+                              Text("Age: $age",
+                                  style: const TextStyle(fontSize: 16)),
                               Text("Data type: ${age.runtimeType}",
-                                  style: TextStyle(fontSize: 16)),
+                                  style: const TextStyle(fontSize: 16)),
                             ],
                           ),
-                          SizedBox(height: 20),
+                          const SizedBox(height: 20),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
                               Text("Amount: $amount",
-                                  style: TextStyle(fontSize: 16)),
+                                  style: const TextStyle(fontSize: 16)),
                               Text("Data type: ${amount.runtimeType}",
-                                  style: TextStyle(fontSize: 16)),
+                                  style: const TextStyle(fontSize: 16)),
                             ],
                           ),
-                          SizedBox(height: 20),
-                          SizedBox(height: 20),
+                          const SizedBox(height: 20),
+                          const SizedBox(height: 20),
                           Column(
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
                               Text("Date of birth: $dob",
-                                  style: TextStyle(fontSize: 16)),
+                                  style: const TextStyle(fontSize: 16)),
                               Text("Data type: ${dob.runtimeType}",
-                                  style: TextStyle(fontSize: 16)),
+                                  style: const TextStyle(fontSize: 16)),
                             ],
                           ),
-                          SizedBox(height: 20),
+                          const SizedBox(height: 20),
                           Column(
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
-                              Text("Product: ${model}",
-                                  style: TextStyle(fontSize: 16)),
+                              Text("Product: $model",
+                                  style: const TextStyle(fontSize: 16)),
                               Text("Data type: ${model.runtimeType}",
-                                  style: TextStyle(fontSize: 16)),
+                                  style: const TextStyle(fontSize: 16)),
                             ],
                           ),
                         ],
@@ -213,7 +214,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     },
                   );
                 },
-                child: Text("Add"),
+                child: const Text("Add"),
               ),
             ),
           ],

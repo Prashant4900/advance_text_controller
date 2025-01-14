@@ -2,11 +2,11 @@ name: advance_text_controller
 description: A Flutter package that provides advanced text editing controllers for managing and formatting various types of inputs, including dates, times, models, and numerical values.
 repository: https://github.com/Prashant4900/advance_text_controller
 issue_tracker: https://github.com/Prashant4900/advance_text_controller/issues?q=is%3Aissue+is%3Aopen
-version: 0.0.2
+version: 0.0.3
 
 environment:
-  sdk: ^3.4.0
-  flutter: '>=3.22.0'
+  sdk: ^3.5.0
+  flutter: '>=3.24.0'
 
 dependencies:
   flutter:
